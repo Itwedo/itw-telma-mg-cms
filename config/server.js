@@ -5,6 +5,6 @@ module.exports = ({ env }) => ({
     keys: env.array('APP_KEYS'),
   },
   dirs:{
-      public: env('PUBLIC_PATH','/opt/moov')
+      public: env('PUBLIC_PATH','./public')
     }
 });
