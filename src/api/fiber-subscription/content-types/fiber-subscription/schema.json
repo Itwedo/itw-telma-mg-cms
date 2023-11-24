@@ -63,8 +63,8 @@
     "validity": {
       "type": "enumeration",
       "enum": [
-        " 24 mois",
-        " 12 mois"
+        "mois 24",
+        "mois 12"
       ]
     },
     "cin": {
