@@ -7914,8 +7914,8 @@
                               "validity": {
                                 "type": "string",
                                 "enum": [
-                                  "24 mois",
-                                  "12 mois"
+                                  "mois 24",
+                                  "mois 12"
                                 ]
                               },
                               "cin": {
@@ -10786,8 +10786,8 @@
                             "validity": {
                               "type": "string",
                               "enum": [
-                                "24 mois",
-                                "12 mois"
+                                "mois 24",
+                                "mois 12"
                               ]
                             },
                             "cin": {
@@ -13547,8 +13547,8 @@
                       "validity": {
                         "type": "string",
                         "enum": [
-                          "24 mois",
-                          "12 mois"
+                          "mois 24",
+                          "mois 12"
                         ]
                       },
                       "cin": {
@@ -13746,8 +13746,8 @@
                             "validity": {
                               "type": "string",
                               "enum": [
-                                "24 mois",
-                                "12 mois"
+                                "mois 24",
+                                "mois 12"
                               ]
                             },
                             "cin": {
@@ -16527,8 +16527,8 @@
                             "validity": {
                               "type": "string",
                               "enum": [
-                                "24 mois",
-                                "12 mois"
+                                "mois 24",
+                                "mois 12"
                               ]
                             },
                             "cin": {
@@ -19299,8 +19299,8 @@
                       "validity": {
                         "type": "string",
                         "enum": [
-                          "24 mois",
-                          "12 mois"
+                          "mois 24",
+                          "mois 12"
                         ]
                       },
                       "cin": {
