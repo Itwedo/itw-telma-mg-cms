@@ -1,0 +1,80 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shops",
+  "info": {
+    "singularName": "shop",
+    "pluralName": "shops",
+    "displayName": "Shop",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "zone": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "longitude": {
+      "type": "float",
+      "required": true
+    },
+    "latitude": {
+      "type": "float",
+      "required": true
+    },
+    "region": {
+      "type": "enumeration",
+      "enum": [
+        "Diana",
+        "Ihorombe",
+        "Fito Vinany",
+        "Atsimo Andrefana",
+        "Itasy",
+        "Sofia",
+        "Alaotra Mangoro",
+        "Menabe",
+        "Vakinankaratra",
+        "Anosy",
+        "Haute Matsiatra",
+        "Atsimo Atsinanana",
+        "Vatovavy",
+        "Boeny",
+        "Amoron'i Mania",
+        "Analanjirofo",
+        "Melaky",
+        "Sava",
+        "Bongolava",
+        "Betsiboka",
+        "Atsinanana",
+        "Analamanga",
+        "Androy"
+      ],
+      "required": true,
+      "default": "Analamanga"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "openingHours": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shop.shop-opening-hours"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_esim_faqs",
+  "info": {
+    "displayName": "faq",
+    "icon": "question-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "response": {
+      "type": "richtext"
+    }
+  }
+}

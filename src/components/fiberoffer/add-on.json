@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_fiberoffer_add_ons",
+  "info": {
+    "displayName": "Add-On",
+    "icon": "burn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

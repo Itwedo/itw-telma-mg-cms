@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_product_stages",
+  "info": {
+    "displayName": "Stage",
+    "icon": "money-check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "month": {
+      "type": "integer",
+      "min": 1,
+      "max": 36,
+      "default": 1
+    },
+    "price": {
+      "type": "biginteger",
+      "min": "0"
+    }
+  }
+}

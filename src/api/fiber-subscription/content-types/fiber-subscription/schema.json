@@ -1,0 +1,119 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "fiber_subscriptions",
+  "info": {
+    "singularName": "fiber-subscription",
+    "pluralName": "fiber-subscriptions",
+    "displayName": "Fiber Subscription"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "elligibility": {
+      "type": "boolean"
+    },
+    "name": {
+      "type": "string"
+    },
+    "firstname": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "email"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "userType": {
+      "type": "enumeration",
+      "enum": [
+        "Particulier",
+        "Professionel",
+        "SME"
+      ]
+    },
+    "offer": {
+      "type": "enumeration",
+      "enum": [
+        "Fibre Familly",
+        "Fibre Home",
+        "Fibre Home Plus",
+        "Fibre Petit PRO",
+        "Fibre PRO",
+        "Fibre PRO Plus",
+        "Fibre CYBER",
+        "Fibre CYBER Plus",
+        "FO PETIT PRO",
+        "FO PRO",
+        "FO PRO PLUS"
+      ]
+    },
+    "adds-on": {
+      "type": "string"
+    },
+    "validity": {
+      "type": "enumeration",
+      "enum": [
+        " 24 mois",
+        " 12 mois"
+      ]
+    },
+    "cin": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "adp": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "nifStat": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "rib": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "residence": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "rcs": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

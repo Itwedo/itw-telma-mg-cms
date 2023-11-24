@@ -1,0 +1,94 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Smartphone",
+        "Téléphone",
+        "Autre device",
+        "BOX"
+      ],
+      "required": true,
+      "default": "Smartphone"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "brand": {
+      "type": "string",
+      "default": "TELMA",
+      "required": true
+    },
+    "price": {
+      "type": "integer",
+      "required": true
+    },
+    "type": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "screen": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "network": {
+      "type": "string"
+    },
+    "camera": {
+      "type": "string"
+    },
+    "characteristics": {
+      "type": "text"
+    },
+    "showInHomepage": {
+      "type": "boolean",
+      "default": false
+    },
+    "isNew": {
+      "type": "boolean",
+      "default": false
+    },
+    "stagger": {
+      "type": "boolean",
+      "default": false
+    },
+    "stage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.stage"
+    },
+    "eligibility": {
+      "type": "text"
+    }
+  }
+}

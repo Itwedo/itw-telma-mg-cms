@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fiber_add_ons",
+  "info": {
+    "singularName": "fiber-add-on",
+    "pluralName": "fiber-add-ons",
+    "displayName": "Fiber Add-on",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "category": {
+      "type": "string",
+      "unique": true
+    },
+    "offer": {
+      "displayName": "Add-On",
+      "type": "component",
+      "repeatable": true,
+      "component": "fiberoffer.add-on"
+    }
+  }
+}

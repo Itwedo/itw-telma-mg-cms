@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fiber_offers",
+  "info": {
+    "singularName": "fiber-offer",
+    "pluralName": "fiber-offers",
+    "displayName": "Fiber Offer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {
+    "userType": {
+      "type": "string",
+      "unique": true
+    },
+    "offer": {
+      "displayName": "Offer",
+      "type": "component",
+      "repeatable": true,
+      "component": "fiberoffer.offer"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offer_categories",
+  "info": {
+    "singularName": "offer-category",
+    "pluralName": "offer-categories",
+    "displayName": "Offer Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userType": {
+      "type": "string",
+      "unique": true
+    },
+    "offer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "offercategory.offer"
+    }
+  }
+}

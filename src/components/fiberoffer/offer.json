@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_fiberoffer_offers",
+  "info": {
+    "displayName": "Offer",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "fup": {
+      "type": "string"
+    },
+    "addsOn": {
+      "type": "string"
+    }
+  }
+}
